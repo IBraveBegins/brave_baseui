@@ -7,4 +7,6 @@ class RoutePath {
   static const String button = "/button";
 
   static const String imageIcon = "/imageIcon";
+
+  static const String switchCheckbox = "/switchCheckbox";
 }

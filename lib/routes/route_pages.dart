@@ -1,5 +1,7 @@
 import 'package:brave_baseui/base_widget/base_button.dart';
 import 'package:brave_baseui/base_widget/base_image_icon.dart';
+import 'package:brave_baseui/base_widget/base_switch_checkbox/base_switch_checkbox_binding.dart';
+import 'package:brave_baseui/base_widget/base_switch_checkbox/base_switch_checkbox_view.dart';
 import 'package:brave_baseui/base_widget/base_text.dart';
 import 'package:brave_baseui/routes/route_path.dart';
 import 'package:get/get.dart';
@@ -23,6 +25,11 @@ class RoutePages {
     GetPage(
       name: RoutePath.imageIcon,
       page: () => const BaseImageIcon(),
+    ),
+    GetPage(
+      name: RoutePath.switchCheckbox,
+      page: () => BaseSwitchCheckboxPage(),
+      binding: BaseSwitchCheckboxBinding(),
     ),
   ];
 }

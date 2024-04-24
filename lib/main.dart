@@ -63,7 +63,12 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   Get.toNamed(RoutePath.imageIcon);
                 },
-                child: const Text('ImageIcon')),
+                child: const Text('Image&Icon')),
+            ElevatedButton(
+                onPressed: () {
+                  Get.toNamed(RoutePath.switchCheckbox);
+                },
+                child: const Text('Switch&Checkbox')),
           ],
         ),
       ),
