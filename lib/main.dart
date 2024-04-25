@@ -69,6 +69,11 @@ class _HomePageState extends State<HomePage> {
                   Get.toNamed(RoutePath.switchCheckbox);
                 },
                 child: const Text('Switch&Checkbox')),
+            ElevatedButton(
+                onPressed: () {
+                  Get.toNamed(RoutePath.textField);
+                },
+                child: const Text('TextField')),
           ],
         ),
       ),
