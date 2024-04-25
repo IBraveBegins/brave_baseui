@@ -176,11 +176,6 @@ class _BaseTextFieldState extends State<BaseTextField> {
     //       ],
     //     ));
     return Container(
-      // decoration: focusNode3.hasFocus
-      //     ? const BoxDecoration(
-      //         border: Border(bottom: BorderSide(color: Colors.blue, width: 1)))
-      //     : const BoxDecoration(
-      //         border: Border(bottom: BorderSide(color: Colors.grey, width: 1))),
       decoration: BoxDecoration(
           border: Border(
               bottom: BorderSide(
