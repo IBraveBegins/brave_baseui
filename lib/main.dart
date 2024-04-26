@@ -74,6 +74,11 @@ class _HomePageState extends State<HomePage> {
                   Get.toNamed(RoutePath.textField);
                 },
                 child: const Text('TextField')),
+            ElevatedButton(
+                onPressed: () {
+                  Get.toNamed(RoutePath.form);
+                },
+                child: const Text('Form')),
           ],
         ),
       ),

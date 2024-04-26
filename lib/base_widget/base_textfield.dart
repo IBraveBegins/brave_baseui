@@ -70,7 +70,7 @@ class _BaseTextFieldState extends State<BaseTextField> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('输入框和表单'),
+        title: const Text('输入框'),
       ),
       body: Column(
         children: [

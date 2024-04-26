@@ -11,4 +11,6 @@ class RoutePath {
   static const String switchCheckbox = "/switchCheckbox";
 
   static const String textField = "/textField";
+
+  static const String form = "/form";
 }

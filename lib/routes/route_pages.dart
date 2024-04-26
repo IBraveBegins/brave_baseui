@@ -1,4 +1,5 @@
 import 'package:brave_baseui/base_widget/base_button.dart';
+import 'package:brave_baseui/base_widget/base_form.dart';
 import 'package:brave_baseui/base_widget/base_image_icon.dart';
 import 'package:brave_baseui/base_widget/base_switch_checkbox/base_switch_checkbox_binding.dart';
 import 'package:brave_baseui/base_widget/base_switch_checkbox/base_switch_checkbox_view.dart';
@@ -35,6 +36,10 @@ class RoutePages {
     GetPage(
       name: RoutePath.textField,
       page: () => const BaseTextField(),
+    ),
+    GetPage(
+      name: RoutePath.form,
+      page: () => const BaseForm(),
     ),
   ];
 }
