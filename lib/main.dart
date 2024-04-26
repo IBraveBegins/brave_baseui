@@ -79,6 +79,11 @@ class _HomePageState extends State<HomePage> {
                   Get.toNamed(RoutePath.form);
                 },
                 child: const Text('Form')),
+            ElevatedButton(
+                onPressed: () {
+                  Get.toNamed(RoutePath.progress);
+                },
+                child: const Text('Progress')),
           ],
         ),
       ),

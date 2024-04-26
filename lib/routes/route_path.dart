@@ -13,4 +13,6 @@ class RoutePath {
   static const String textField = "/textField";
 
   static const String form = "/form";
+
+  static const String progress = "/progress";
 }

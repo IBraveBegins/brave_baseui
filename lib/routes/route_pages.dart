@@ -1,6 +1,7 @@
 import 'package:brave_baseui/base_widget/base_button.dart';
 import 'package:brave_baseui/base_widget/base_form.dart';
 import 'package:brave_baseui/base_widget/base_image_icon.dart';
+import 'package:brave_baseui/base_widget/base_progress.dart';
 import 'package:brave_baseui/base_widget/base_switch_checkbox/base_switch_checkbox_binding.dart';
 import 'package:brave_baseui/base_widget/base_switch_checkbox/base_switch_checkbox_view.dart';
 import 'package:brave_baseui/base_widget/base_text.dart';
@@ -40,6 +41,10 @@ class RoutePages {
     GetPage(
       name: RoutePath.form,
       page: () => const BaseForm(),
+    ),
+    GetPage(
+      name: RoutePath.progress,
+      page: () => const BaseProgress(),
     ),
   ];
 }
